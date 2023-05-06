@@ -1,0 +1,223 @@
+/* 浮動主選單 */
+.menu {
+  text-align: center;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+}
+
+
+.menu .ul {
+  display: inline-block;
+}
+
+
+.menu .ul a {
+  text-decoration: none;
+  color: #454545;
+
+}
+
+
+.menu .ul li {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #FBC6B5;
+  width: 115px;
+  height: 52px;
+  text-align: center;
+  margin: 2px;
+  line-height: 52px;
+}
+
+
+
+.menu .ul li:last-child {
+  border-radius: 0px 0px 40px 40px;
+}
+
+.menu .ul a:hover {
+  color: #FFFFFF;
+}
+
+.menu .ul li:hover {
+  background-color: #F58672;
+}
+
+
+
+
+/* 主視覺 */
+.kv {
+  background-color: #A9EEFE;
+}
+
+.kv img {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+
+/* 所有背景 */
+.gift,
+.only,
+.spring,
+.footer {
+  background-image: url(../images/bg.png);
+}
+
+
+
+/* 寵愛有禮 */
+.gift .container .cash {
+  margin: auto;
+  max-width: 1200px;
+  padding: 60px 86.5px;
+  background-color: rgba(26, 109, 131, 0.54);
+  border-radius: 50px;
+  border: solid 6px #FFFFFF;
+  margin-bottom: 66px;
+}
+
+/* 獨家下殺 */
+.only .container .sale {
+  margin: auto;
+  max-width: 1200px;
+}
+
+
+.only .row img {
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.only .row img:hover {
+  width: 96%;
+}
+
+
+/* 春季保養 */
+.spring .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 50px;
+  background-color: rgba(26, 109, 131, 0.54);
+  border-radius: 50px;
+  border: 6px solid #FFFFFF;
+
+}
+
+.spring .container .row {
+  width: 100%;
+  max-width: 955px;
+  margin: auto;
+}
+
+.spring .card {
+  width: 100%;
+  max-width: 223.75px;
+  background-color: #2D8297;
+  border-radius: 20px;
+  padding: 10px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+
+.spring .row .card {
+  margin-top: 0px;
+  transition: margin-top 0.3s ease;
+}
+
+
+.spring .row .card:hover {
+  margin-top: -18px;
+}
+
+.spring .card .pic {
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.spring .card .effect {
+  background-color: #F58672;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.spring .card p {
+  font-size: 14px;
+}
+
+.spring .card .money h3 {
+  color: #F58672;
+
+}
+
+/* 明星代言 */
+
+.spring .iris {
+  margin-top: -12px;
+}
+
+/* Copyright */
+.footer {
+  position: relative;
+}
+
+.footer p {
+  color: #FFFFFF;
+  font-size: 12px;
+  position: absolute;
+  top: 48%;
+  right: 0;
+  left: 0;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+  /* 所有背景 */
+  .gift,
+  .only,
+  .spring,
+  .footer {
+    background-image: url(../images/bg_s.png);
+  }
+
+
+  /* 寵愛有禮 */
+  .gift .title,
+  .spring .title {
+    width: 80%;
+  }
+
+
+  .gift .container .cash {
+    padding: 20px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  /* 春季保養 */
+  .spring .container {
+    padding: 20px 16px;
+
+  }
+
+  .spring .card {
+    margin-bottom: 14px;
+  }
+
+}
