@@ -213,7 +213,7 @@
   /* 獨家下殺 */
 
   .only .row img:hover {
-    width: inherit;
+    width: 100%;
   }
 
   /* 春季保養 */
