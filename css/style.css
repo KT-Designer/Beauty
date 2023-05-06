@@ -220,4 +220,8 @@
     margin-bottom: 14px;
   }
 
+  .spring .row .card:hover {
+    margin-top: 0px;
+  }
+
 }
