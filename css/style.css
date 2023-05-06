@@ -210,6 +210,12 @@
   }
 
 
+  /* 獨家下殺 */
+
+  .only .row img:hover {
+    width: 100%;
+  }
+
   /* 春季保養 */
   .spring .container {
     padding: 20px 16px;
