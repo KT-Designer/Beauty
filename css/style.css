@@ -48,6 +48,8 @@
 .menu_MB {
   width: 100%;
   max-width: 768px;
+  height: 30px;
+  align-items: center;
   overflow: auto;
   white-space: nowrap;
 }
