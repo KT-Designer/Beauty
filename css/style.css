@@ -75,7 +75,12 @@
   background-color: #FBC6B5;
 }
 
-.menu_MB ul li a:active,
+
+.menu_MB ul li a:active {
+  background-color: #F58672;
+  color: #FFFFFF;
+}
+
 .menu_MB ul li a:focus {
   background-color: #F58672;
   color: #FFFFFF;
