@@ -47,9 +47,15 @@
 
 .menu_MB {
   width: 100%;
+  margin: auto;
   background-color: rgba(255, 255, 255, 0.7);
-  overflow: auto;
+  overflow-x: auto;
   white-space: nowrap;
+}
+
+/* 隱藏捲軸 */
+.menu_MB::-webkit-scrollbar {
+  display: none;
 }
 
 .menu_MB ul {
@@ -60,7 +66,7 @@
 .menu_MB ul li a {
   display: inline-block;
   margin: 0px 2px;
-  padding: 10px 32px;
+  padding: 10px 20.5px;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
