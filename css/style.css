@@ -1,4 +1,4 @@
-/* 浮動主選單 */
+/* 浮動主選單_PC */
 .menu {
   text-align: center;
   position: fixed;
@@ -31,7 +31,6 @@
 }
 
 
-
 .menu .ul li:last-child {
   border-radius: 0px 0px 40px 40px;
 }
@@ -42,6 +41,38 @@
 
 .menu .ul li:hover {
   background-color: #F58672;
+}
+
+/* 浮動主選單_平板/手機 */
+
+.menu_MB {
+  width: 100%;
+  max-width: 768px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.menu_MB ul {
+  display: flex;
+}
+
+.menu_MB ul li a {
+  height: 43px;
+  margin: 0px 2px;
+  padding: 20px 31.17px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #454545;
+  background-color: #FBC6B5;
+  align-items: center;
+}
+
+.menu_MB ul li a:active,
+.menu_MB ul li a:focus {
+  background-color: #F58672;
+  color: #FFFFFF;
 }
 
 
