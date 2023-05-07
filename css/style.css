@@ -80,6 +80,7 @@
 #scrolltop {
   position: fixed;
   font-size: 16px;
+  font-weight: 600;
   color: #FFFFFF;
   bottom: 15px;
   right: 15px;
