@@ -276,6 +276,10 @@
     height: 100%;
   }
 
+  .spring .row .card .name {
+    height: 40px;
+  }
+
   .spring .row .card:hover {
     margin-top: 0px;
   }
