@@ -47,9 +47,6 @@
 
 .menu_MB {
   width: 100%;
-  max-width: 768px;
-  height: 30px;
-  align-items: center;
   overflow: auto;
   white-space: nowrap;
 }
@@ -58,17 +55,17 @@
   display: flex;
 }
 
+
 .menu_MB ul li a {
-  height: 43px;
+  display: inline-block;
   margin: 0px 2px;
-  padding: 30px 31.17px;
+  padding: 10px 32px;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
   color: #454545;
   background-color: #FBC6B5;
-  align-items: center;
 }
 
 .menu_MB ul li a:active,
