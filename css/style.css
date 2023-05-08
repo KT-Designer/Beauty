@@ -124,6 +124,7 @@
 .gift,
 .only,
 .spring,
+.brand,
 .footer {
   background-image: url(../images/bg.png);
 }
@@ -227,6 +228,16 @@
   margin-top: -4px;
 }
 
+
+/* 精選品牌 */
+.brand .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0px 20px;
+}
+
+
 /* Copyright */
 .footer {
   position: relative;
@@ -244,12 +255,16 @@
 
 
 
+
+
+
 @media screen and (max-width:768px) {
 
   /* 所有背景 */
   .gift,
   .only,
   .spring,
+  .brand,
   .footer {
     background-image: url(../images/bg_s.png);
   }
@@ -293,6 +308,13 @@
 
   .spring .row .card:hover {
     margin-top: 0px;
+  }
+
+
+  /* 精選品牌 */
+  .brand .container {
+    max-width: 736px;
+    padding: 30px 50px 0px;
   }
 
 }
