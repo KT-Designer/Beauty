@@ -238,6 +238,8 @@
 }
 
 
+
+
 /* Copyright */
 .footer {
   position: relative;
@@ -313,7 +315,6 @@
 
   /* 精選品牌 */
   .brand .container {
-    max-width: 736px;
     padding: 30px 50px 0px;
   }
 
