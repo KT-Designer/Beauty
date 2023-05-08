@@ -1,5 +1,5 @@
 $('.autoplay').slick({
-  slidesToShow: 5,
+  slidesToShow: 6,
   slidesToScroll: 1,
   autoplay: true,
   arrows: false,
