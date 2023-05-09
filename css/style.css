@@ -43,7 +43,7 @@
   background-color: #F58672;
 }
 
-/* 浮動主選單_平板/手機 */
+/* 浮動主選單_手機 */
 
 .menu_MB {
   width: 100%;
@@ -76,15 +76,11 @@
 }
 
 
-.menu_MB ul li a:active {
+.menu_MB ul li a:hover {
   background-color: #F58672;
   color: #FFFFFF;
 }
 
-.menu_MB ul li a:focus {
-  background-color: #F58672;
-  color: #FFFFFF;
-}
 
 
 /* 置頂鍵 */
@@ -230,12 +226,13 @@
 
 
 /* 精選品牌 */
-.brand .container {
+
+.autoplay {
   width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 100px 0px 20px;
+  max-width: 1100px;
+
 }
+
 
 
 
@@ -253,7 +250,6 @@
   right: 0;
   left: 0;
 }
-
 
 
 
@@ -309,12 +305,6 @@
 
   .spring .row .card:hover {
     margin-top: 0px;
-  }
-
-
-  /* 精選品牌 */
-  .brand .container {
-    padding: 30px 50px 0px;
   }
 
 }
