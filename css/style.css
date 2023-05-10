@@ -119,7 +119,7 @@
 /* 所有背景 */
 .gift,
 .only,
-.spring,
+.winter,
 .brand,
 .footer {
   background-image: url(../images/bg.png);
@@ -155,8 +155,8 @@
 }
 
 
-/* 春季保養 */
-.spring .container {
+/* 秋冬保養 */
+.winter .container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -167,13 +167,13 @@
 
 }
 
-.spring .container .row {
+.winter .container .row {
   width: 100%;
   max-width: 955px;
   margin: auto;
 }
 
-.spring .card {
+.winter .card {
   width: 100%;
   max-width: 223.75px;
   background-color: #2D8297;
@@ -185,23 +185,23 @@
 }
 
 
-.spring .row .card {
+.winter .row .card {
   margin-top: 0px;
   transition: margin-top 0.3s ease;
 }
 
 
-.spring .row .card:hover {
+.winter .row .card:hover {
   margin-top: -18px;
 }
 
-.spring .card .pic {
+.winter .card .pic {
   padding: 10px;
   background-color: #FFFFFF;
   border-radius: 20px;
 }
 
-.spring .card .effect {
+.winter .card .effect {
   background-color: #F58672;
   padding: 10px;
   text-align: center;
@@ -209,18 +209,18 @@
 
 }
 
-.spring .card p {
+.winter .card p {
   font-size: 14px;
 }
 
-.spring .card .money h3 {
+.winter .card .money h3 {
   color: #F58672;
 
 }
 
 /* 明星代言 */
 
-.spring .iris {
+.winter .iris {
   margin-top: -4px;
 }
 
@@ -261,7 +261,7 @@
   /* 所有背景 */
   .gift,
   .only,
-  .spring,
+  .winter,
   .brand,
   .footer {
     background-image: url(../images/bg_s.png);
@@ -270,7 +270,7 @@
 
   /* 寵愛有禮 */
   .gift .title,
-  .spring .title {
+  .winter .title {
     width: 80%;
   }
 
@@ -289,21 +289,21 @@
     width: 100%;
   }
 
-  /* 春季保養 */
-  .spring .container {
+  /* 秋冬保養 */
+  .winter .container {
     padding: 20px 16px;
 
   }
 
-  .spring .card {
+  .winter .card {
     margin-bottom: 14px;
   }
 
-  .spring .row .card .name {
+  .winter .row .card .name {
     height: 40px;
   }
 
-  .spring .row .card:hover {
+  .winter .row .card:hover {
     margin-top: 0px;
   }
 
