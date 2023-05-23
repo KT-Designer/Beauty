@@ -164,6 +164,7 @@
   background-color: rgba(26, 109, 131, 0.54);
   border-radius: 50px;
   border: 6px solid #FFFFFF;
+  
 
 }
 
@@ -174,14 +175,16 @@
 }
 
 .winter .card {
-  width: 100%;
-  max-width: 223.75px;
   background-color: #2D8297;
   border-radius: 20px;
   padding: 10px;
   color: #FFFFFF;
   margin-bottom: 30px;
   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.winter .row .card .name {
+  height: 40px;
 }
 
 
@@ -297,10 +300,6 @@
 
   .winter .card {
     margin-bottom: 14px;
-  }
-
-  .winter .row .card .name {
-    height: 40px;
   }
 
   .winter .row .card:hover {
