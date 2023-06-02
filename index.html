@@ -1,1231 +1,1098 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>夏日競行曲</title>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <!-- 花瓣套件 -->
+  <link rel="stylesheet" type="text/css" href="./js/snow-falling-transforms/dist/css/snowfall.css">
+
+  <!-- 輪播套件 -->
+  <link rel="stylesheet" href="./js/slick/slick.css">
+  <link rel="stylesheet" href="./js/slick/slick-theme.css">
+
+
+
+
+
+  <title>美妝大賞</title>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
+
+
+
 
 <body>
 
-    <!-- 置頂鍵 -->
-    <div id="scrolltop"></div>
+
+  <!-- 置頂鍵 -->
+  <div id="scrolltop" class="d-block d-md-none">Top</div>
 
 
-    <!-- 氣泡特效 -->
-    <section class="sticky">
-        <div class="bubbles">
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
-            <div class="bubble"><img src="./images/bubble.png" alt=""></div>
+
+  <!-- 花瓣套件 -->
+  <snowfall>
+    <snowflake><img src="./images/flower1.png">️</snowflake>
+    <snowflake><img src="./images/flower2.png">️</snowflake>
+    <snowflake><img src="./images/flower3.png">️</snowflake>
+    <snowflake><img src="./images/flower4.png">️</snowflake>
+    <snowflake><img src="./images/flower5.png">️</snowflake>
+    <snowflake><img src="./images/flower6.png">️</snowflake>
+    <snowflake><img src="./images/flower7.png">️</snowflake>
+    <snowflake><img src="./images/flower8.png">️</snowflake>
+    <snowflake><img src="./images/flower1.png">️</snowflake>
+    <snowflake><img src="./images/flower2.png">️</snowflake>
+    <snowflake><img src="./images/flower3.png">️</snowflake>
+    <snowflake><img src="./images/flower4.png">️</snowflake>
+    <snowflake><img src="./images/flower5.png">️</snowflake>
+  </snowfall>
+
+
+
+
+
+
+  <!-- 主視覺 -->
+  <div id="top" class="kv">
+    <img src="./images/KV.jpg" alt="" class="d-none d-lg-block">
+    <img src="./images/KV_mb.png" alt="" class="d-block d-lg-none">
+  </div>
+
+  <!-- 寵愛有禮 -->
+  <div id="gift" class="gift text-center pt-3 pt-lg-5">
+    <img src="./images/gift.png" alt="" class="title img-fluid">
+    <div class="container">
+      <div class="row cash">
+        <div class="col-6 p-0">
+          <img src="./images/120.png" alt="" class="img-fluid">
         </div>
-    </section>
-
-
-
-
-    <!-- 主視覺 -->
-    <div class="kv"><img src="./images/kv_PC.png" alt=""></div>
-
-    <!-- 最外層 -->
-    <div class="wrapper">
-
-        <!-- 購物攻略 -->
-        <div class="radiers" id="raiders">
-            <div class="title"><img src="./images/radiers.png" alt=""></div>
-            <div class="container">
-                <div class="item"><img src="./images/40ff.png" alt=""></div>
-                <div class="item"><img src="./images/200.png" alt=""></div>
-            </div>
-            <div class="container">
-                <div class="item"><img src="./images/Avier.png" alt=""></div>
-                <div class="item"><img src="./images/ROG.png" alt=""></div>
-            </div>
-            <div class="title"><img src="./images/lottery.png" alt=""></div>
-            <div class="container tickets">
-                <img src="./images/tickets.png" alt="">
-            </div>
+        <div class="col-6 p-0">
+          <img src="./images/160.png" alt="" class="img-fluid">
         </div>
-
-
-
-        <!-- 今日下殺 -->
-        <div class="radiers only" id="only">
-            <div class="title"><img src="./images/only.png" alt=""></div>
-            <div class="container">
-                <div class="item"><a href="" target="_blank"><img src="./images/only1.png" alt=""></a></div>
-                <div class="item"><a href="" target="_blank"><img src="./images/only2.png" alt=""></a></div>
-            </div>
-            <div class="container">
-                <div class="item"><a href="" target="_blank"><img src="./images/only3.png" alt=""></a></div>
-                <div class="item"><a href="" target="_blank"><img src="./images/only4.png" alt=""></a></div>
-            </div>
+        <div class="col-6 p-0">
+          <img src="./images/200.png" alt="" class="img-fluid">
         </div>
+        <div class="col-6 p-0">
+          <img src="./images/520.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row cash">
+        <div class="col-6 p-0">
+          <img src="./images/40off.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 p-0">
+          <img src="./images/add$1.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row cash mb-0">
+        <div class="col P-0">
+          <img src="./images/code.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 獨家下殺 -->
+
+  <div id="only" class="only text-center pt-3 pt-lg-5">
+    <img src="./images/only.png" alt="" class="img-fluid">
+    <div class="container">
+      <div class="row sale">
+        <div class="col-6 p-0">
+          <img src="./images/only1.png" alt="" class="mb-3 mb-lg-5">
+        </div>
+        <div class="col-6 p-0">
+          <img src="./images/only2.png" alt="" class="mb-3 mb-lg-5">
+        </div>
+        <div class="col-6 p-0">
+          <img src="./images/only3.png" alt="">
+        </div>
+        <div class="col-6 p-0">
+          <img src="./images/only4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+  <!-- 秋冬保養 -->
 
-        <!-- 電競電腦 -->
-        <div class="slider" id="pc">
-            <div class="title"><img src="./images/pc.png" alt=""></div>
-            <!-- 電競電腦_錨點 -->
-            <div class="slider-nav">
-                <div class="logo" data-slide="0"><img src="./images/Asus.png" alt=""></div>
-                <div class="logo" data-slide="1"><img src="./images/Aser.png" alt=""></div>
-                <div class="logo" data-slide="2"><img src="./images/msi.png" alt=""></div>
+  <div id="winter" class="winter text-center pt-3 pt-lg-5">
+    <img src="./images/winner.png" alt="" class="title img-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner1.png" class="card-img-top img-fluid" alt="...">
             </div>
-            <!-- 電競電腦_卡片 -->
-            <div class="slider-content">
-                <!-- AUSU華碩 -->
-                <div class="slide" data-slide="0">
-                    <ul class="list">
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS1.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3070</div>
-                                <div class="money">
-                                    <div class="price">$85,000</div>
-                                    <h1>$76,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS2.png" alt=""></div>
-                                <div class="name">i7獨顯GTX1660Ti</div>
-                                <div class="money">
-                                    <div class="price">$30,990</div>
-                                    <h1>$28,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS3.png" alt=""></div>
-                                <div class="name">i5十核獨顯RTX3050</div>
-                                <div class="money">
-                                    <div class="price">$55,000</div>
-                                    <h1>$49,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS4.png" alt=""></div>
-                                <div class="name">R7八核獨顯RTX3080</div>
-                                <div class="money">
-                                    <div class="price">$55,000</div>
-                                    <h1>$49,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS5.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$44,990</div>
-                                    <h1>$40,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS6.png" alt=""></div>
-                                <div class="name">i5獨顯RTX3060Ti</div>
-                                <div class="money">
-                                    <div class="price">$48,890</div>
-                                    <h1>$42,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS7.png" alt=""></div>
-                                <div class="name">24型護眼螢幕組★i5獨顯</div>
-                                <div class="money">
-                                    <div class="price">$39,480</div>
-                                    <h1>$32,490</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS8.png" alt=""></div>
-                                <div class="name">i5獨顯RTX3050</div>
-                                <div class="money">
-                                    <div class="price">$34,990</div>
-                                    <h1>$29,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS9.png" alt=""></div>
-                                <div class="name">i5獨顯GTX1660Ti</div>
-                                <div class="money">
-                                    <div class="price">$29,990</div>
-                                    <h1>$25,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">ASUS</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/ASUS10.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3070</div>
-                                <div class="money">
-                                    <div class="price">$68,990</div>
-                                    <h1>$66,990</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <a href="">
-                            <div class="more">看更多&thinsp;▶</div>
-                        </a>
-                    </ul>
-                </div>
-                <!-- Acer宏碁 -->
-                <div class="slide" data-slide="1">
-                    <ul class="list">
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer1.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3080</div>
-                                <div class="money">
-                                    <div class="price">$74,900</div>
-                                    <h1>$67,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer2.png" alt=""></div>
-                                <div class="name">i5獨顯RTX3050</div>
-                                <div class="money">
-                                    <div class="price">$36,900</div>
-                                    <h1>$32,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer3.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060Ti</div>
-                                <div class="money">
-                                    <div class="price">$47,900</div>
-                                    <h1>$41,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer4.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$45,900</div>
-                                    <h1>$43,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer5.png" alt=""></div>
-                                <div class="name">i9獨顯RTX3080</div>
-                                <div class="money">
-                                    <div class="price">$108,000</div>
-                                    <h1>$77,777</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer6.png" alt=""></div>
-                                <div class="name">i9獨顯RTX3080</div>
-                                <div class="money">
-                                    <div class="price">$92,900</div>
-                                    <h1>$89,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer7.png" alt=""></div>
-                                <div class="name">i5獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$38,900</div>
-                                    <h1>$36,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer8.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$55,900</div>
-                                    <h1>$49,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer9.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060Ti</div>
-                                <div class="money">
-                                    <div class="price">$59,900</div>
-                                    <h1>$54,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">Acer</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer10.png" alt=""></div>
-                                <div class="name">i9獨顯RTX3090</div>
-                                <div class="money">
-                                    <div class="price">$99,999</div>
-                                    <h1>$138,000</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="more">看更多&thinsp;▶</li>
-                    </ul>
-                </div>
-                <!-- msi微星 -->
-                <div class="slide" data-slide="2">
-                    <ul class="list">
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi1.png" alt=""></div>
-                                <div class="name">13代i5獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$49,900</div>
-                                    <h1>$41,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi2.png" alt=""></div>
-                                <div class="name">12代i5獨顯RTX2060</div>
-                                <div class="money">
-                                    <div class="price">$42,900</div>
-                                    <h1>$28,500</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi3.png" alt=""></div>
-                                <div class="name">i7獨顯RTX3060Ti</div>
-                                <div class="money">
-                                    <div class="price">$47,900</div>
-                                    <h1>$41,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi4.png" alt=""></div>
-                                <div class="name">i5獨顯RTX2060</div>
-                                <div class="money">
-                                    <div class="price">$33,900</div>
-                                    <h1>$25,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/Acer5.png" alt=""></div>
-                                <div class="name">i5獨顯GTX1650</div>
-                                <div class="money">
-                                    <div class="price">$18,900</div>
-                                    <h1>$21,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi6.png" alt=""></div>
-                                <div class="name">12代i5獨顯RTX3050</div>
-                                <div class="money">
-                                    <div class="price">$42,900</div>
-                                    <h1>$33,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi7.png" alt=""></div>
-                                <div class="name">i5獨顯RTX3050</div>
-                                <div class="money">
-                                    <div class="price">$33,900</div>
-                                    <h1>$39,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi8.png" alt=""></div>
-                                <div class="name">13代i5獨顯GTX1650</div>
-                                <div class="money">
-                                    <div class="price">$37,900</div>
-                                    <h1>$29,400</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi9.png" alt=""></div>
-                                <div class="name">13代i5獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$85,000</div>
-                                    <h1>$47,900</h1>
-                                </div>
-                                <div class="buy">立即買</div>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="brand">msi</div>
-                            <div class="card-body">
-                                <div class="card-img"><img src="./images/msi10.png" alt=""></div>
-                                <div class="name">13代i7獨顯RTX3060</div>
-                                <div class="money">
-                                    <div class="price">$59,900</div>
-                                    <h1>$53,900</h1>
-                                </div>
-                                <a href="#" target="_blank">
-                                    <div class="buy">立即買</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="more">看更多&thinsp;▶</li>
-                    </ul>
-                </div>
+            <div class="card-body p-0">
+              <p class="effect">清潔與磨砂</p>
+              <h6 class="card-title text-center">SABON</h6>
+              <p class="name card-text text-center">二合一臉部純淨磨砂膏</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,680</p>
+                <h3 class="sale fw-bolder">$920</h3>
+              </div>
             </div>
+          </div>
         </div>
 
-
-
-        <!-- 高檔螢幕 -->
-        <div class="box monitor" id="monitor">
-            <div class="title"><img src="./images/monitor.png" alt=""></div>
-            <div class="container">
-                <ul class="list">
-                    <li class="card">
-                        <div class="brand">ASUS</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor1.png" alt=""></div>
-                            <div class="name">ROG&ensp;STRIX&ensp;27型</div>
-                            <div class="money">
-                                <div class="price">$12,888</div>
-                                <h1>$9,988</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ASUS</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor2.png" alt=""></div>
-                            <div class="name">TUF&ensp;Gaming&ensp;27型</div>
-                            <div class="money">
-                                <div class="price">$9,688</div>
-                                <h1>$5,688</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Acer</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor3.png" alt=""></div>
-                            <div class="name">ED270R&ensp;P&ensp;27型</div>
-                            <div class="money">
-                                <div class="price">$6,999</div>
-                                <h1>$4,288</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Acer</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor4.png" alt=""></div>
-                            <div class="name">27型&ensp;IPS&ensp;165Hz</div>
-                            <div class="money">
-                                <div class="price">$10,900</div>
-                                <h1>$4,688</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ViewSonic</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor5.png" alt=""></div>
-                            <div class="name">VX2718-2KPC-mhd&ensp;27型</div>
-                            <div class="money">
-                                <div class="price">$8,988</div>
-                                <h1>$5,888</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ViewSonic</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor6.png" alt=""></div>
-                            <div class="name">VX3218C-2K&ensp;32型</div>
-                            <div class="money">
-                                <div class="price">$9,990</div>
-                                <h1>$7,388</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ViewSonic</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor7.png" alt=""></div>
-                            <div class="name">VX2418-P-MHD&ensp;24型</div>
-                            <div class="money">
-                                <div class="price">$6,678</div>
-                                <h1>$3,888</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">msi</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor8.png" alt=""></div>
-                            <div class="name">G242C&ensp;24型</div>
-                            <div class="money">
-                                <div class="price">$4,390</div>
-                                <h1>$3,690</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">BenQ</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor9.png" alt=""></div>
-                            <div class="name">BenQ</div>
-                            <div class="money">
-                                <div class="price">$12,888</div>
-                                <h1>$9,980</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">GIGABYTE</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/monitor10.png" alt=""></div>
-                            <div class="name">M28U&ensp;28型</div>
-                            <div class="money">
-                                <div class="price">$18,990</div>
-                                <h1>$15,990</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner2.png" class="card-img-top img-fluid" alt="...">
             </div>
-        </div>
-
-
-
-
-        <!-- 電競筆電 -->
-        <div class="box notebook" id="notebook">
-            <div class="title"><img src="./images/NB.png" alt=""></div>
-            <div class="container">
-                <ul class="list">
-                    <li class="card">
-                        <div class="brand">ASUS</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB1.png" alt=""></div>
-                            <div class="name">16吋&ensp;i9&ensp;RTX4050</div>
-                            <div class="money">
-                                <div class="price">$61,999</div>
-                                <h1>$55,999</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ASUS</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB2.png" alt=""></div>
-                            <div class="name">15.6吋R7&ensp;RTX3050</div>
-                            <div class="money">
-                                <div class="price">$31,288</div>
-                                <h1>$26,999</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">msi</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB3.png" alt=""></div>
-                            <div class="name">16吋i7&ensp;RTX4050</div>
-                            <div class="money">
-                                <div class="price">$46,900</div>
-                                <h1>$43,900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">msi</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB4.png" alt=""></div>
-                            <div class="name">16吋i9&ensp;RTX4070</div>
-                            <div class="money">
-                                <div class="price">$84,900</div>
-                                <h1>$82,900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Acer</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB5.png" alt=""></div>
-                            <div class="name">17.3吋i7&ensp;RTX4050</div>
-                            <div class="money">
-                                <div class="price">$57,799</div>
-                                <h1>$47,200</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Acer</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB6.png" alt=""></div>
-                            <div class="name">15.6吋i7效能電競筆電</div>
-                            <div class="money">
-                                <div class="price">$42,190</div>
-                                <h1>$27,900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">HP</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB7.png" alt=""></div>
-                            <div class="name">16吋i7&ensp;RTX3060</div>
-                            <div class="money">
-                                <div class="price">$51,099</div>
-                                <h1>$38,400</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">HP</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB8.png" alt=""></div>
-                            <div class="name">16吋&ensp;i7&ensp;RTX3060</div>
-                            <div class="money">
-                                <div class="price">$47,900</div>
-                                <h1>$36,900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Lenovo</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB9.png" alt=""></div>
-                            <div class="name">15.6吋i5獨顯RTX3050</div>
-                            <div class="money">
-                                <div class="price">$33,580</div>
-                                <h1>$24,990</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Lenovo</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/NB10.png" alt=""></div>
-                            <div class="name">15.6吋i7&ensp;RTX3050TI</div>
-                            <div class="money">
-                                <div class="price">$44,689</div>
-                                <h1>$37,990</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="card-body p-0">
+              <p class="effect">晶透美肌</p>
+              <h6 class="card-title text-center">SK-II</h6>
+              <p class="name card-text text-center">青春露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$4,750</p>
+                <h3 class="sale fw-bolder">$2,520</h3>
+              </div>
             </div>
+          </div>
         </div>
 
-
-
-
-
-        <!-- 熱銷週邊 -->
-        <div class="box hot" id="hot">
-            <div class="title"><img src="./images/hot.png" alt=""></div>
-            <div class="container">
-                <ul class="list">
-                    <li class="card">
-                        <div class="brand">Logitech</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot1.png" alt=""></div>
-                            <div class="name">MX&ensp;Anywhere&ensp;3</div>
-                            <div class="money">
-                                <div class="price">$2,990</div>
-                                <h1>$2,690</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Logitech</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot2.png" alt=""></div>
-                            <div class="name">G102&ensp;炫彩遊戲有線滑鼠</div>
-                            <div class="money">
-                                <div class="price">$699</div>
-                                <h1>$499</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">i-Rocks</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot3.png" alt=""></div>
-                            <div class="name">T07&ensp;人體工學電競椅</div>
-                            <div class="money">
-                                <div class="price">$13,999</div>
-                                <h1>$9,390</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Microsoft</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot4.png" alt=""></div>
-                            <div class="name">Xbox無線控制器+USB-C&ensp;纜線</div>
-                            <div class="money">
-                                <div class="price">$2,090</div>
-                                <h1>$1,388</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Razer</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot5.png" alt=""></div>
-                            <div class="name">BlackShark&ensp;V2X</div>
-                            <div class="money">
-                                <div class="price">$2,490</div>
-                                <h1>$1,212</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">CORSAIR</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot6.png" alt=""></div>
-                            <div class="name">K70&ensp;MK.2&ensp;RGB&ensp;SE&ensp;銀軸</div>
-                            <div class="money">
-                                <div class="price">$3,390</div>
-                                <h1>$2,390</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">ASUS</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot7.png" alt=""></div>
-                            <div class="name">ROG&ensp;Chariot&ensp;Core&ensp;SL300</div>
-                            <div class="money">
-                                <div class="price">$15,900</div>
-                                <h1>$12,900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">msi</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot8.png" alt=""></div>
-                            <div class="name">MAG&ensp;CH120X&ensp;龍魂電競椅</div>
-                            <div class="money">
-                                <div class="price">$8,090</div>
-                                <h1>$7,690</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">Logitech</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot9.png" alt=""></div>
-                            <div class="name">G502&ensp;LIGHTSPEED&ensp;無線滑鼠</div>
-                            <div class="money">
-                                <div class="price">$4,090</div>
-                                <h1>$3,290</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">NZXT</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/hot10.png" alt=""></div>
-                            <div class="name">Kraken&ensp;Z63&ensp;RGB&ensp;液晶水冷</div>
-                            <div class="money">
-                                <div class="price">$9,890</div>
-                                <h1>$7,990</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner3.png" class="card-img-top img-fluid" alt="...">
             </div>
-        </div>
-
-
-
-
-
-        <!-- 護眼養生 -->
-        <div class="box health" id="health">
-            <div class="title"><img src="./images/health.png" alt=""></div>
-            <div class="container">
-                <ul class="list">
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health1.png" alt=""></div>
-                            <div class="name">順天適明膠囊</div>
-                            <div class="money">
-                                <div class="price">$1,100</div>
-                                <h1>$880</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health2.png" alt=""></div>
-                            <div class="name">薑黃悠干膠囊</div>
-                            <div class="money">
-                                <div class="price">$750</div>
-                                <h1>$660</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health3.png" alt=""></div>
-                            <div class="name">好睡寶膠囊</div>
-                            <div class="money">
-                                <div class="price">$1,380</div>
-                                <h1>$920</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health4.png" alt=""></div>
-                            <div class="name">捍衛舒康</div>
-                            <div class="money">
-                                <div class="price">$1,200</div>
-                                <h1>$900</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health5.png" alt=""></div>
-                            <div class="name">靈芝子實體膠囊</div>
-                            <div class="money">
-                                <div class="price">$1,500</div>
-                                <h1>$1,280</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health6.png" alt=""></div>
-                            <div class="name">高單位金納豆</div>
-                            <div class="money">
-                                <div class="price">$1,850</div>
-                                <h1>$1,520</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health7.png" alt=""></div>
-                            <div class="name">欣孅適(抹茶風味)</div>
-                            <div class="money">
-                                <div class="price">$1,280</div>
-                                <h1>$990</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health8.png" alt=""></div>
-                            <div class="name">明亮舒適飲</div>
-                            <div class="money">
-                                <div class="price">$320</div>
-                                <h1>$250</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health9.png" alt=""></div>
-                            <div class="name">黃耆養生茶</div>
-                            <div class="money">
-                                <div class="price">$275</div>
-                                <h1>$180</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="brand">順天本草</div>
-                        <div class="card-body">
-                            <div class="card-img"><img src="./images/health10.png" alt=""></div>
-                            <div class="name">粉光元氣茶</div>
-                            <div class="money">
-                                <div class="price">$360</div>
-                                <h1>$220</h1>
-                            </div>
-                            <a href="#" target="_blank">
-                                <div class="buy">立即買</div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="card-body p-0">
+              <p class="effect">一滴全面修復</p>
+              <h6 class="card-title text-center">DR.WU 達爾膚</h6>
+              <p class="name card-text text-center">角鯊玫瑰果賦活精華油</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,200</p>
+                <h3 class="sale fw-bolder">$1,320</h3>
+              </div>
             </div>
+          </div>
         </div>
 
-
-
-        <!-- 熱銷廠牌 -->
-        <div class="box hotlogo">
-            <div class="title"><img src="./images/hotlogo.png" alt=""></div>
-            <div class="slider">
-                <div class="slide-track">
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_ausu.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_acer.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_gigabyte.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_msi.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_nvidia.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_lenovo.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_asrock.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_biostar.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_zotac.png" alt=""></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="./images/logo_leadtek.png" alt=""></a>
-                    </div>
-                </div>
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner4.png" class="card-img-top img-fluid" alt="...">
             </div>
+            <div class="card-body p-0">
+              <p class="effect">神力小紅瓶</p>
+              <h6 class="card-title text-center">KIEHL'S 契爾氏</h6>
+              <p class="name card-text text-center">11kDa超導全能修護露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,200</p>
+                <h3 class="sale fw-bolder">$1,320</h3>
+              </div>
+            </div>
+          </div>
         </div>
 
-
-        <!-- footer -->
-        <div class="footer">
-            <p>©2020 優惠商品數量有限，售完為止。活動頁商品規格、顏色、價位、贈品如與購物車不符，以購物車標示為準。</p>
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner5.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">改善肌膚粗糙</p>
+              <h6 class="card-title text-center">LANCÔME 蘭蔻</h6>
+              <p class="name card-text text-center">超極光活粹晶露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,780</p>
+                <h3 class="sale fw-bolder">$2,200</h3>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner6.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">喚醒肌膚</p>
+              <h6 class="card-title text-center">肌膚之鑰</h6>
+              <p class="name card-text text-center">精質乳霜 LA CREME</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$18,500</p>
+                <h3 class="sale fw-bolder">$9,200</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner7.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">抗引力太空科技</p>
+              <h6 class="card-title text-center">LANCÔME 蘭蔻</h6>
+              <p class="name card-text text-center">超緊顏5D太空抗皺日霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,400</p>
+                <h3 class="sale fw-bolder">$2,020</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner8.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">全方位立體緊緻</p>
+              <h6 class="card-title text-center">SK-II</h6>
+              <p class="name card-text text-center">RNA超肌能緊緻彈力精萃</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,500</p>
+                <h3 class="sale fw-bolder">$2,000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner9.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">保濕舒緩修復</p>
+              <h6 class="card-title text-center">DR.WU 達爾膚</h6>
+              <p class="name card-text text-center">玻尿酸保濕修復精華液</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,600</p>
+                <h3 class="sale fw-bolder">$920</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner10.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">注入保濕能量</p>
+              <h6 class="card-title text-center">Biotherm 碧兒泉</h6>
+              <p class="name card-text text-center">奇蹟特嫩精華</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,400</p>
+                <h3 class="sale fw-bolder">$2,020</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner11.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">彈潤透亮</p>
+              <h6 class="card-title text-center">VICHY 薇姿</h6>
+              <p class="name card-text text-center">M89火山能量微精華</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,480</p>
+                <h3 class="sale fw-bolder">$920</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/winner12.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">舒緩泛紅</p>
+              <h6 class="card-title text-center">Neogence 霓淨思</h6>
+              <p class="name card-text text-center">積雪草B5修護純粹精華</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,200</p>
+                <h3 class="sale fw-bolder">$520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 戶外防曬 -->
+  <div id="sun" class="winter text-center pt-3 pt-lg-5">
+    <img src="./images/sun.png" alt="" class="title img-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun1.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">全方位防護</p>
+              <h6 class="card-title text-center">ANESSA 安耐曬</h6>
+              <p class="name card-text text-center">金鑽高效防曬露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$950</p>
+                <h3 class="sale fw-bolder">$530</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun2.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">怡麗絲爾小金管</p>
+              <h6 class="card-title text-center">ELIXIR 怡麗絲爾</h6>
+              <p class="name card-text text-center">彈潤多效美肌乳SP+</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$950</p>
+                <h3 class="sale fw-bolder">$520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun3.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">遮瑕不厚重</p>
+              <h6 class="card-title text-center">LAURA MERCIER </h6>
+              <p class="name card-text text-center">煥顏氣墊粉餅</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,900</p>
+                <h3 class="sale fw-bolder">$1,020</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun4.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">明亮不暗沉</p>
+              <h6 class="card-title text-center">植村秀</h6>
+              <p class="name card-text text-center">無極限保濕妝前乳</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,600</p>
+                <h3 class="sale fw-bolder">$920</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun5.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">妝前乳界天花板</p>
+              <h6 class="card-title text-center">ANESSA 安耐曬</h6>
+              <p class="name card-text text-center">金鑽水透妍妝前乳</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$790</p>
+                <h3 class="sale fw-bolder">$450</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun6.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">長效鎖水</p>
+              <h6 class="card-title text-center">PONY EFFECT</h6>
+              <p class="name card-text text-center">水透光妝前防護乳</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$950</p>
+                <h3 class="sale fw-bolder">$520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun7.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">美肌成分</p>
+              <h6 class="card-title text-center">ANESSA 安耐曬</h6>
+              <p class="name card-text text-center">金鑽高效防曬凝膠</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$790</p>
+                <h3 class="sale fw-bolder">$450</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun8.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">喚醒肌膚生命力</p>
+              <h6 class="card-title text-center">SHISEIDO 資生堂</h6>
+              <p class="name card-text text-center">極上御藏防禦精華乳</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">3,000</p>
+                <h3 class="sale fw-bolder">$1,820</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun9.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">暑假出去玩必備</p>
+              <h6 class="card-title text-center">ANESSA 安耐曬</h6>
+              <p class="name card-text text-center">黃金水鑽防曬露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,100</p>
+                <h3 class="sale fw-bolder">$620</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun10.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">角質代謝更新</p>
+              <h6 class="card-title text-center">SOFINA 蘇菲娜</h6>
+              <p class="name card-text text-center">芯美顏保濕日間防禦乳</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$800</p>
+                <h3 class="sale fw-bolder">$420</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun11.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">奢美無瑕光采</p>
+              <h6 class="card-title text-center">肌膚之鑰</h6>
+              <p class="name card-text text-center">光采無瑕妝前凝霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,100</p>
+                <h3 class="sale fw-bolder">$1,250</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/sun12.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">輕盈無負擔</p>
+              <h6 class="card-title text-center">ORBIS</h6>
+              <p class="name card-text text-center">透妍潤色隔離霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$390</p>
+                <h3 class="sale fw-bolder">$230</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
+  <!-- 人氣香氛 -->
+  <div id="perfume" class="winter text-center pt-3 pt-lg-5">
+    <img src="./images/perfume.png" alt="" class="title img-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume1.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">玫瑰花園</p>
+              <h6 class="card-title text-center">Chloé</h6>
+              <p class="name card-text text-center">玫瑰女性淡香精</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,200</p>
+                <h3 class="sale fw-bolder">$1,320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume2.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">清如露珠</p>
+              <h6 class="card-title text-center">Chloé</h6>
+              <p class="name card-text text-center">水漾玫瑰女性淡香水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,100</p>
+                <h3 class="sale fw-bolder">$1,230</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume3.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">純淨又性感</p>
+              <h6 class="card-title text-center">JO MALONE</h6>
+              <p class="name card-text text-center">紅玫瑰古龍水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,350</p>
+                <h3 class="sale fw-bolder">$1,350</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume4.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">濟州特調茶香</p>
+              <h6 class="card-title text-center">innisfree</h6>
+              <p class="name card-text text-center">濟州香氛護手霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$140</p>
+                <h3 class="sale fw-bolder">$50</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume5.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">N°5 L'EAU</p>
+              <h6 class="card-title text-center">CHANEL 香奈兒</h6>
+              <p class="name card-text text-center">清新晨露淡香水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,900</p>
+                <h3 class="sale fw-bolder">$2,320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume6.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">優雅玫瑰香</p>
+              <h6 class="card-title text-center">diptyque</h6>
+              <p class="name card-text text-center">玫瑰之水淡香水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,600</p>
+                <h3 class="sale fw-bolder">$2,020</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume7.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">滋潤修護再生</p>
+              <h6 class="card-title text-center">歐舒丹</h6>
+              <p class="name card-text text-center">玫瑰絲絨護手霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$680</p>
+                <h3 class="sale fw-bolder">$320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume8.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">活潑明朗花香調</p>
+              <h6 class="card-title text-center">JO MALONE</h6>
+              <p class="name card-text text-center">罌粟花與大麥古龍水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,740</p>
+                <h3 class="sale fw-bolder">$1,520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume9.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">清新花果香調</p>
+              <h6 class="card-title text-center">Paul Smith</h6>
+              <p class="name card-text text-center">玫瑰女性淡香精</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,670</p>
+                <h3 class="sale fw-bolder">$920</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume10.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">簡約的男性</p>
+              <h6 class="card-title text-center">CHANEL 香奈兒</h6>
+              <p class="name card-text text-center">男性運動清新古龍水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,500</p>
+                <h3 class="sale fw-bolder">$1,520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume11.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">優雅櫻花香</p>
+              <h6 class="card-title text-center">歐舒丹</h6>
+              <p class="name card-text text-center">櫻花護手霜升級版</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$800</p>
+                <h3 class="sale fw-bolder">$450</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/perfume12.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">清新盪漾</p>
+              <h6 class="card-title text-center">Dior 迪奧</h6>
+              <p class="name card-text text-center">漫舞玫瑰淡香水</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,350</p>
+                <h3 class="sale fw-bolder">$1,250</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 明星代言 -->
+  <!-- IU代言 -->
+  <div id="star" class="only text-center pt-3 pt-lg-5">
+    <img src="./images/star.png" alt="" class="img-fluid">
+  </div>
+  <div class="winter iu text-center">
+    <img src="./images/iu.png" alt="" class="img-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star1.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">健康光采</p>
+              <p class="name card-text text-center">蜂膠能量彈潤精華液</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,150</p>
+                <h3 class="sale fw-bolder">$620</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star2.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">潤澤活力</p>
+              <p class="name card-text text-center">蜂膠彈潤安瓶面膜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$650</p>
+                <h3 class="sale fw-bolder">$320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star3.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">彈潤水亮</p>
+              <p class="name card-text text-center">蜂膠能量彈潤安瓶</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,050</p>
+                <h3 class="sale fw-bolder">$630</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star4.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">改善肌膚油光</p>
+              <p class="name card-text text-center">美肌潤色防曬霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$950</p>
+                <h3 class="sale fw-bolder">$530</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star5.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">長效服貼的亮采</p>
+              <p class="name card-text text-center">蜂膠能量彈潤氣墊粉餅</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,350</p>
+                <h3 class="sale fw-bolder">$820</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star6.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">深層營養彈力</p>
+              <p class="name card-text text-center">蜂膠能量彈潤噴霧</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$550</p>
+                <h3 class="sale fw-bolder">$320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star7.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">健康透亮</p>
+              <p class="name card-text text-center">維他命激亮白皙素顏霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,450</p>
+                <h3 class="sale fw-bolder">$820</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star8.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">晶透無瑕光采</p>
+              <p class="name card-text text-center">透亮煥膚原生精露</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,150</p>
+                <h3 class="sale fw-bolder">$620</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 宋慧喬代言 -->
+  <div class="winter star text-center pt-3 pt-md-5">
+    <img src="./images/iris.png" alt="" class="img-fluid">
+    <div class="container iris">
+      <div class="row">
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star9.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">抗老首選</p>
+              <p class="name card-text text-center">潤燥養膚精華</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,880</p>
+                <h3 class="sale fw-bolder">$1,720</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star10.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">晶透亮美肌</p>
+              <p class="name card-text text-center">滋晶雪瀅氣墊粉霜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,080</p>
+                <h3 class="sale fw-bolder">$1,230</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star11.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">淨化肌底髒污</p>
+              <p class="name card-text text-center">淨透保濕潔顏泡沫</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,180</p>
+                <h3 class="sale fw-bolder">$700</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star12.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">年輕「蔘等」</p>
+              <p class="name card-text text-center">滋陰蔘緊膚晶萃</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$3,880</p>
+                <h3 class="sale fw-bolder">$2,320</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star13.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">喚醒肌膚活力</p>
+              <p class="name card-text text-center">宮中蜜皂</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$1,180</p>
+                <h3 class="sale fw-bolder">$700</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star14.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">自動調校膚色</p>
+              <p class="name card-text text-center">完美柔焦精華氣墊</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$2,000</p>
+                <h3 class="sale fw-bolder">$1,230</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star15.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">人蔘賦活極萃</p>
+              <p class="name card-text text-center">滋陰生人蔘縮時修護安瓶</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$4,380</p>
+                <h3 class="sale fw-bolder">$2,520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+          <div class="card border border-0">
+            <div class="pic mb-2">
+              <img src="./images/star16.png" class="card-img-top img-fluid" alt="...">
+            </div>
+            <div class="card-body p-0">
+              <p class="effect">修護自癒能力</p>
+              <p class="name card-text text-center">臻雪丹御赤松賦活面膜</p>
+              <div class="money d-flex align-items-center justify-content-center">
+                <p class="price text-decoration-line-through m-0">$6,200</p>
+                <h3 class="sale fw-bolder">$2,520</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 精選品牌 -->
+  <div id="brand" class="brand text-center pt-3 pt-lg-5">
+    <img src="./images/brand.png" alt="" class="img-fluid">
+    <div class="container autoplay pt-5">
+      <div>
+        <a href="#"><img src="./images/dr.wu.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/biotherm.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/ponyeffect.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/estee.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/sabon.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/skii.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/dior.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/larocheposay.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/decorte.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href=""><img src="./images/innisfree.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/neogence.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/clarins.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/anessa.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/elixir.png" alt="" class="img-fluid"></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/shseido.png" alt="" class="img-fluid"></a>
+      </div>
     </div>
 
-
-
-
-
-    <!-- 浮動主選單_PC -->
-    <div class="open">快速導覽</div>
-    <div class="menu_PC">
-        <div class="close">
-            <p>✖</p>
-        </div>
-        <h1><img src="./images/menu.png" alt=""></h1>
-        <ul>
-            <li class="anchor-link"><a href="#raiders">購物攻略</a></li>
-            <li class="anchor-link"><a href="#only">今日下殺</a></li>
-            <li class="anchor-link"><a href="#pc">電競主機</a></li>
-            <li class="anchor-link"><a href="#monitor">高檔螢幕</a></li>
-            <li class="anchor-link"><a href="#notebook">電競筆電</a></li>
-            <li class="anchor-link"><a href="#hot">熱銷週邊</a></li>
-            <li class="anchor-link"><a href="#health">護眼養生</a></li>
-            <li class="anchor-link"><a href="#top">Top</a></li>
-        </ul>
-    </div>
-
-
-
-    <!-- 浮動主選單_手機 -->
-    <div class="menu_MB">
-        <ul>
-            <li><a href="#raiders">購物攻略</a></li>
-            <li><a href="#only">今日下殺</a></li>
-            <li><a href="#pc">電競主機</a></li>
-            <li><a href="#monitor">高檔螢幕</a></li>
-            <li><a href="#notebook">電競筆電</a></li>
-            <li><a href="#hot">熱銷週邊</a></li>
-            <li><a href="#health">護眼養生</a></li>
-        </ul>
-    </div>
+  </div>
 
 
 
@@ -1234,6 +1101,46 @@
 
 
 
+  <!-- footer -->
+  <div class="footer text-center">
+    <p>©2020 COSMED. All Rights Reserved.</p>
+    <img src="./images/footer.png" alt="" class="img-fluid">
+
+  </div>
+
+
+
+
+
+
+  <!-- 浮動主選單_PC -->
+  <div class="menu d-none d-md-block">
+    <h1 class="m-0"><img src="./images/menu.png" alt=""></h1>
+    <ul class="ul list-unstyled">
+      <li class="anchor-link"><a href="#gift">寵愛有禮</a></li>
+      <li class="anchor-link"><a href="#only">獨家下殺</a></li>
+      <li class="anchor-link"><a href="#winter">秋冬保養</a></li>
+      <li class="anchor-link"><a href="#sun">戶外防曬</a></li>
+      <li class="anchor-link"><a href="#perfume">人氣香氛</a></li>
+      <li class="anchor-link"><a href="#star">明星代言</a></li>
+      <li class="anchor-link"><a href="#brand">精選品牌</a></li>
+      <li class="anchor-link"><a href="#top">TOP</a></li>
+    </ul>
+  </div>
+
+
+  <!-- 浮動主選單_手機 -->
+  <div class="menu_MB position-fixed top-0 d-block d-md-none">
+    <ul class="ul list-unstyled m-0">
+      <li><a href="#gift">寵愛有禮</a></li>
+      <li><a href="#only">獨家下殺</a></li>
+      <li><a href="#winter">秋冬保養</a></li>
+      <li><a href="#sun">戶外防曬</a></li>
+      <li><a href="#perfume">人氣香氛</a></li>
+      <li><a href="#star">明星代言</a></li>
+      <li><a href="#brand">精選品牌</a></li>
+    </ul>
+  </div>
 
 
 
@@ -1243,18 +1150,59 @@
 
 
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <!-- 置頂鍵 -->
-    <script src="./js/top.js"></script>
-    <!-- 浮動選單_PC -->
-    <script src="./js/side_menu.js"></script>
-    <!-- 電競電腦 -->
-    <script src="./js/slider.js"></script>
-    <!-- Smooth Scroll監聽 -->
-    <script src="./js/Smooth_Scroll.js"></script>
 
 
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery -->
+
+
+
+
+  <!-- 置頂鍵 -->
+  <script src="./js/topbt.js"></script>
+
+  <!-- 輪播套件 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./js/slick/slick.js"></script>
+  <script src="./js/slick.js"></script>
+  <!-- Smooth Scroll監聽 -->
+  <script src="./js/Smooth_Scroll.js"></script> class="anchor-link"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
