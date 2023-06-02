@@ -1,3 +1,14 @@
+/* 浮動主選單_監聽(.active配合JS) */
+.menu .anchor-link.active a {
+  color: #FFFFFF;
+
+}
+
+.menu .anchor-link.active {
+  background-color: #F58672;
+}
+
+
 /* 浮動主選單_PC */
 .menu {
   text-align: center;
@@ -12,14 +23,14 @@
 }
 
 
-.menu .ul a {
+.menu .anchor-link a {
   text-decoration: none;
   color: #454545;
 
 }
 
 
-.menu .ul li {
+.menu .anchor-link {
   font-size: 18px;
   font-weight: 500;
   background-color: #FBC6B5;
@@ -31,20 +42,22 @@
 }
 
 
-.menu .ul li:last-child {
+.menu .anchor-link:last-child {
   border-radius: 0px 0px 40px 40px;
 }
 
-.menu .ul a:hover {
+.menu .anchor-link a:hover {
   color: #FFFFFF;
 }
 
-.menu .ul li:hover {
+.menu .anchor-link:hover {
   background-color: #F58672;
 }
 
-/* 浮動主選單_手機 */
 
+
+
+/* 浮動主選單_手機 */
 .menu_MB {
   width: 100%;
   margin: auto;
@@ -164,7 +177,7 @@
   background-color: rgba(26, 109, 131, 0.54);
   border-radius: 50px;
   border: 6px solid #FFFFFF;
-  
+
 
 }
 
@@ -190,12 +203,12 @@
 
 .winter .row .card {
   margin-top: 0px;
-  transition: margin-top 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 
 .winter .row .card:hover {
-  margin-top: -18px;
+  transform: translateY(-18px);
 }
 
 .winter .card .pic {
@@ -303,7 +316,7 @@
   }
 
   .winter .row .card:hover {
-    margin-top: 0px;
+    transform: translateY(0px);
   }
 
 }
