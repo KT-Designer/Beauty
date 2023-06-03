@@ -21,8 +21,8 @@ var swiper = new Swiper(".mySwiper", {
 
     // 斷點
     breakpoints: {
-        // when window width is >= 375px
-        375: {
+        // when window width is >= 320px
+        320: {
             slidesPerView: 2,
             spaceBetween: 20
         },
