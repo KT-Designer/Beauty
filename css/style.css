@@ -135,7 +135,7 @@
 .only,
 .winter,
 .brand,
-.footer {
+footer {
   background-image: url(../images/bg.png);
 }
 
@@ -276,13 +276,13 @@
 
 
 /* Copyright */
-.footer {
+footer {
   position: relative;
 }
 
-.footer p {
+footer p {
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
   top: 40%;
   right: 0;
@@ -301,7 +301,7 @@
   .only,
   .winter,
   .brand,
-  .footer {
+  footer {
     background-image: url(../images/bg_s.png);
   }
 
