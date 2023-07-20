@@ -155,17 +155,17 @@ footer {
 /* 獨家下殺 */
 .only .container .sale {
   margin: auto;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 
 .only .row img {
-  width: 100%;
+  width: 75%;
   transition: width 0.3s ease;
 }
 
 .only .row img:hover {
-  width: 96%;
+  width: 78%;
 }
 
 
