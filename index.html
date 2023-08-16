@@ -1137,7 +1137,7 @@
 
   <!-- 浮動主選單_PC -->
 
-  <nav class="menu d-none d-md-block" data-aos="fade-left" data-aos-duration="1200">
+  <nav class="menu d-none d-md-block">
     <h1 class="m-0"><img src="./images/menu.png" alt=""></h1>
     <ul class="ul list-unstyled">
       <li class="anchor-link"><a href="#gift">寵愛有禮</a></li>
@@ -1201,6 +1201,12 @@
   <script src="./js/aos.js"></script>
   <script>
     AOS.init();
+    AOS.init({
+      disable: "phone"
+    });
+    AOS.init({
+      disable: "tablet"
+    });
   </script>
 
   <!-- 置頂鍵 -->
