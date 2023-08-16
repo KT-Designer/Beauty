@@ -160,12 +160,12 @@ footer {
 
 
 .only .row img {
-  width: 75%;
+  width: 80%;
   transition: width 0.3s ease;
 }
 
 .only .row img:hover {
-  width: 78%;
+  width: 85%;
 }
 
 
