@@ -11,6 +11,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
 
+  <!-- AOS淡進淡出 -->
+  <link rel="stylesheet" href="./css/aos.css">
 
   <!-- 花瓣套件 -->
   <link rel="stylesheet" type="text/css" href="./js/snow-falling-transforms/dist/css/snowfall.css">
@@ -81,29 +83,29 @@
     <img src="./images/gift.png" alt="" class="title img-fluid">
     <div class="container">
       <div class="row cash">
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-right" data-aos-duration="600">
           <img src="./images/120.png" alt="" class="img-fluid">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-left" data-aos-duration="1200">
           <img src="./images/160.png" alt="" class="img-fluid">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-right" data-aos-duration="1800">
           <img src="./images/200.png" alt="" class="img-fluid">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-left" data-aos-duration="2400">
           <img src="./images/520.png" alt="" class="img-fluid">
         </div>
       </div>
       <div class="row cash">
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-right" data-aos-duration="600">
           <img src="./images/40off.png" alt="" class="img-fluid">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="fade-left" data-aos-duration="1200">
           <img src="./images/add$1.png" alt="" class="img-fluid">
         </div>
       </div>
       <div class="row cash mb-0">
-        <div class="col P-0">
+        <div class="col P-0" data-aos="fade-down" data-aos-duration="600">
           <img src="./images/code.png" alt="" class="img-fluid">
         </div>
       </div>
@@ -116,16 +118,16 @@
     <img src="./images/only.png" alt="" class="img-fluid">
     <div class="container">
       <div class="row sale">
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="zoom-out-right" data-aos-duration="600">
           <img src="./images/only1.png" alt="" class="mb-3 mb-lg-5">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="zoom-out-left" data-aos-duration="1200">
           <img src="./images/only2.png" alt="" class="mb-3 mb-lg-5">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="zoom-out-right" data-aos-duration="1800">
           <img src="./images/only3.png" alt="">
         </div>
-        <div class="col-6 p-0">
+        <div class="col-6 p-0" data-aos="zoom-out-left" data-aos-duration="2400">
           <img src="./images/only4.png" alt="">
         </div>
       </div>
@@ -1135,7 +1137,7 @@
 
   <!-- 浮動主選單_PC -->
 
-  <nav class="menu d-none d-md-block">
+  <nav class="menu d-none d-md-block" data-aos="fade-left" data-aos-duration="1200">
     <h1 class="m-0"><img src="./images/menu.png" alt=""></h1>
     <ul class="ul list-unstyled">
       <li class="anchor-link"><a href="#gift">寵愛有禮</a></li>
@@ -1195,9 +1197,11 @@
 
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-
-
+  <!-- AOS淡進淡出 -->
+  <script src="./js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- 置頂鍵 -->
   <script src="./js/topbt.js"></script>
