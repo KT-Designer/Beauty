@@ -1201,11 +1201,16 @@
   <script src="./js/aos.js"></script>
   <script>
     AOS.init();
+    // 禁用手機和平板
     AOS.init({
       disable: "phone"
     });
     AOS.init({
       disable: "tablet"
+    });
+    // 只播一次
+    AOS.init({
+      once: true
     });
   </script>
 
@@ -1217,6 +1222,8 @@
   <script src="./js/slides_per_view.js"></script>
   <!-- Smooth Scroll監聽 -->
   <script src="./js/Smooth_Scroll.js"></script>
+
+
 
 
 
