@@ -1,3 +1,10 @@
+/* AOS會干擾跑版 */
+body,
+html {
+  overflow-x: hidden;
+}
+
+
 /* 浮動主選單_監聽(.active配合JS) */
 .menu .anchor-link.active a {
   color: #FFFFFF;
