@@ -126,15 +126,35 @@ html {
 
 /* 主視覺 */
 .kv {
+  position: relative;
+  text-align: center;
   background-color: #A9EEFE;
+
 }
 
-.kv img {
-  width: 100%;
-  max-width: 1200px;
+.kv .bg {
+  width: 80%;
   margin: auto;
 
 }
+
+.kv .bg img {
+  width: 100%;
+}
+
+.kv .kvword {
+  width: 42%;
+  position: absolute;
+  top: 30%;
+  left: 29%;
+
+}
+
+.kv .kvword img {
+  width: 100%;
+
+}
+
 
 
 /* 所有背景 */
@@ -297,11 +317,27 @@ footer p {
 }
 
 
+@media screen and (max-width:1200px) {
 
+  /* 主視覺 */
+  .kv .bg {
+    width: 100%;
+  }
+
+  .kv .kvword {
+    width: 54%;
+    left: 23%;
+  }
+
+}
 
 
 
 @media screen and (max-width:768px) {
+
+
+
+
 
   /* 所有背景 */
   .gift,
@@ -346,6 +382,15 @@ footer p {
 
   .winter .row .card:hover {
     transform: translateY(0px);
+  }
+
+}
+
+
+@media screen and (max-width:576px) {
+  .kv .kvword {
+    width: 68%;
+    left: 16%;
   }
 
 }
